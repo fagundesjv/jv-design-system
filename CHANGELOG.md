@@ -4,6 +4,12 @@ Todas as mudanças relevantes deste pacote serão registradas aqui.
 
 O projeto segue [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
+## [0.2.1] - 2026-10-08
+
+### Corrigido
+
+- O cursor e o bloqueio de seleção durante o arraste ficam dentro do Kanban. A regra agora contém uma classe local, é compatível com CSS Modules no build Webpack do Next.js e não altera controles de outras áreas da aplicação consumidora.
+
 ## [0.2.0] - 2026-10-07
 
 Famílias editoriais para o estúdio do Reporter IA. Nenhuma API foi removida nem renomeada; as mudanças
